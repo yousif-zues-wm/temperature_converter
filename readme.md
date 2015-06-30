@@ -5,10 +5,8 @@ Goal: create a program that can convert a temperature in Fahrenheit, Celsius or 
 
 ## Setup
 
-- Copy the startup code in this repo's `temp_converter.js` file into a new .js file on your computer.  
-
-  or  
-- If you're comfortable with git, clone this repo to your computer: `$ git clone git@github.com:ga-dc/temperature_converter.git`
+- Fork and clone this repo to your computer.
+- Open this repo's `temp_converter.js` file.
 
 ## PART 1
 
@@ -20,7 +18,7 @@ Goal: create a program that can convert a temperature in Fahrenheit, Celsius or 
 3. Below that, `console.log` the starting and converted temperatures.
 4. Repeat steps 1-3 for starting `celsius` and `kelvin` temperatures.
 5. Test your program by running `$ node FILENAME` in the command line.
-6. When you're done, put your code in a gist and Slack it in your classroom channel.
+
 
 Your program will look something like this for each starting temperature...
 
@@ -56,6 +54,10 @@ Restructure your program from PART 1 so that when you convert a temperature, tha
 
 When you `console.log` the temperatures, make sure you do that using values stored in an array.
 
-### Bonus
+### Bonus 1
 
-If you didn't get the chance to implement conditionals before, try it now!
+Use a for or while loop to print out the conversion results for each temperature. It's OK if you need to simplify your `console.log` statements and remove strings.  
+
+### Bonus 2
+
+Implemenent the conditionals from the Part I bonus if you haven't already!  
