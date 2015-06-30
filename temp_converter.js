@@ -1,10 +1,6 @@
-// Set this variable to a starting Fahrenheit temperature
+// Set starting Fahrenheit temperature here...
 var fahrenheit;
 
-// Bonus #1: 
-var celsius;
-
-// Set this variable to a starting Kelvin temperature
-var kelvin;
-
 // Enter temperature conversion code here...
+
+// Log temperatures to console here...

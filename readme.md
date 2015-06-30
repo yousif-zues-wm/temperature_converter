@@ -5,10 +5,13 @@ Goal: create a program that can convert a temperature in Fahrenheit, Celsius or 
 
 ## Setup
 
-- Copy the startup code in this repo's `temp_converter.js` file into a new .js file on your computer.  
+- Fork and clone this repo to your computer.
+- Open this repo's `temp_converter.js` file.
 
-  or  
-- If you're comfortable with git, clone this repo to your computer: `$ git clone git@github.com:ga-dc/temperature_converter.git`
+or  
+
+- In your inclass folder, create a file for this exercise: `touch temp_converter.js`
+- Copy the code found in this repo's `temp_converter.js` file into the file on your computer.
 
 ## PART 1
 
@@ -20,7 +23,7 @@ Goal: create a program that can convert a temperature in Fahrenheit, Celsius or 
 3. Below that, `console.log` the starting and converted temperatures.
 4. Repeat steps 1-3 for starting `celsius` and `kelvin` temperatures.
 5. Test your program by running `$ node FILENAME` in the command line.
-6. When you're done, put your code in a gist and Slack it in your classroom channel.
+6. When you're done, save your code as a gist and post it in the Slack classroom channel.
 
 Your program will look something like this for each starting temperature...
 
@@ -52,10 +55,14 @@ Use conditionals so that your program only prints out the converted temperatures
 
 ## PART 2
 
-Restructure your program from PART 1 so that when you convert a temperature, that new value is stored in an array.  
+Change you code from Part I so that when you convert a temperature, that new value is stored in an array. You will create an array for each temperature.
 
-When you `console.log` the temperatures, make sure you do that using values stored in an array.
+When you `console.log` the temperatures, do that by accessing values in the array.
 
-### Bonus
+### Bonus 1
 
-If you didn't get the chance to implement conditionals before, try it now!
+Use a `for` or `while` loop to print out the conversion results for each temperature. It's OK if you need to simplify your `console.log` statements and remove strings.
+
+### Bonus 2
+
+Implemenent the conditionals from the Part I bonus if you haven't already!
