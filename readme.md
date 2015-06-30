@@ -22,7 +22,7 @@ Goal: create a program that can convert a temperature in Fahrenheit, Celsius or 
 5. Test your program by running `$ node FILENAME` in the command line.
 6. When you're done, put your code in a gist and Slack it in your classroom channel.
 
-Your program will look something like this...
+Your program will look something like this for each starting temperature...
 
   ```javascript
   // Starting temperature
