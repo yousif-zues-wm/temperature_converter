@@ -60,4 +60,4 @@ Use a for or while loop to print out the conversion results for each temperature
 
 ### Bonus 2
 
-Implemenent the conditionals from the Part I bonus if you haven't already!  
+Implement the conditionals from the Part I bonus if you haven't already!  
