@@ -6,7 +6,7 @@ Goal: create a program that can convert a temperature in Fahrenheit, Celsius or 
 ## Setup
 
 - Fork and clone this repo to your computer.
-- Open this repo's `temp_converter.js` file.
+- Open `temp_converter.js`.
 
 ## PART 1
 
@@ -15,6 +15,7 @@ Goal: create a program that can convert a temperature in Fahrenheit, Celsius or 
 1. Set the `fahrenheit` variable to a starting temperature.
 2. Below that, write Javascript code that converts `fahrenheit` to its equivalent Celsius and Kelvin values.
   - Conversion formulae: [http://www.csgnetwork.com/temp2conv.html](http://www.csgnetwork.com/temp2conv.html)
+  - Sample temperatures: 32F = 0C = 273.15K
 3. Below that, `console.log` the starting and converted temperatures.
 4. Repeat steps 1-3 for starting `celsius` and `kelvin` temperatures.
 5. Test your program by running `$ node FILENAME` in the command line.
@@ -24,7 +25,7 @@ Your program will look something like this for each starting temperature...
 
   ```javascript
   // Starting temperature
-  var fahrenheit = STARTING_TEMP;
+  var fahrenheit = 32;
 
   // Conversion code
   var fahrenheitToCelsius = ...;
@@ -44,9 +45,13 @@ Your command line output will look something like this...
   Kelvin: CONVERTED_TEMP K
   ```
 
+Feel free to turn to your tablemates for help!  
+
 ### Bonus
 
-Use conditionals so that your program only prints out the converted temperatures for one starting value.
+Use conditionals (e.g., `if-else` statement, `switch` statement) so that your program only prints out the converted temperatures for one starting value.  
+
+The starting temperature should be determined by a 'whichTemp' variable that you instantiate at the beginning of the program, and will contain a value of either "f" (Fahrenheit), "c" (Celsius) or "k" (Kelvin).
 
 ## PART 2
 

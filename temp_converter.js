@@ -1,10 +1,12 @@
-// Set this variable to a starting Fahrenheit temperature
-var fahrenheit;
+// Set this variable to a starting Fahrenheit temperature...
+var fahrenheit = 32;
 
-// Bonus #1: 
-var celsius;
+// Enter conversion code below...
+var fahrenheitToCelsius = ...;
+var fahrenheitToKelvin = ...;
 
-// Set this variable to a starting Kelvin temperature
-var kelvin;
+// Enter console.log statements below...
 
-// Enter temperature conversion code here...
+// Repeat the above for Celsius and Kelvin...
+var celsius = 0;
+var kelvin = 273.15;
