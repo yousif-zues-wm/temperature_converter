@@ -7,23 +7,23 @@ var fahrenheitToCelsius = ( fahrenheit - 32) / 1.8;
 var fahrenheitToKelvin = ( fahrenheit + 459.67) / 1.8;
 
 // Fahrenheit
-console.log(fahrenheit);
+console.log("K =" + fahrenheitToKelvin);
 console.log("C =" + fahrenheitToCelsius);
 
 // Celsius and Kelvin
 var celsius = prompt("Enter a number for celsius");
-var celsiustofahrenheit = celsius*1.8 + 32
-var celsiustokelvin = celsius+ 273.15
+var celsiustofahrenheit = celsius*1.8 + 32;
+var celsiustokelvin = celsius+ 273.15;
 //  Console.log For the two
-console.log("C =" + celsiustokelvin);
-console.log("C =" + celsiustofahrenheit);
+console.log("K =" + celsiustokelvin);
+console.log("F =" + celsiustofahrenheit);
 
 //Kelvin
 
-var kelvin =273.15;
+var kelvin =prompt("Enter a number for kelvin");
 var kelvintocelsius = (kelvin - 273.15);
 var kelvintofahrenheit = (kelvin * 1.8 - 459.67);
 
 //console.logs
-console.log("K =" + kelvintocelsius);
-console.log("K =" + kelvintofahrenheit);
+console.log("C =" + kelvintocelsius);
+console.log("F =" + kelvintofahrenheit);
